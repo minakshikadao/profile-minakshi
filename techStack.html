@@ -1,62 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TECH STACK DETAILS</title>
     <style>
-        table,td,th,tr {
-            border : 1px solid black
-        } 
-        
-        span {
+      table,
+      td,
+      th,
+      tr {
+        padding: 10px;
+        border: 2px solid black;
+        width: 30px;
+        height: 5px;
+        text-align: center;
+      }
+      #table {
+        font-family: "Roboto", sans-serif;
+      }
+      span {
         color: rgb(93, 218, 225);
+        font-family: "Concert One", sans-serif;
       }
 
-      #green{
+      #green {
         color: rgb(47, 233, 47);
+        font-family: "Concert One", sans-serif;
       }
-
     </style>
-
-
-
-</head>
-<body>
-    <h2><span>Technology</span> <span id="green">Stack </span> </h2>
+  </head>
+  <body>
+    <h2><span>Technology</span> <span id="green">Stack </span></h2>
 
     <table>
       <thead>
         <tr>
-          <th>Sr. NO.</th> 
-          <th>Technology Stack</th> 
-          <th>Rating</th> 
+          <th>Sr. NO.</th>
+          <th>Technology Stack</th>
+          <th>Rating</th>
         </tr>
       </thead>
 
-      <tbody>
+      <tbody id="table">
         <tr>
           <td>1</td>
           <td>HTML</td>
           <td>4</td>
         </tr>
         <tr>
-            <td>2</td>
+          <td>2</td>
           <td>CSS</td>
           <td>4</td>
         </tr>
         <tr>
-            <td>3</td>
+          <td>3</td>
           <td>JavaScript</td>
           <td>4</td>
         </tr>
         <tr>
-            <td>4</td>
+          <td>4</td>
           <td>Angular</td>
           <td>3</td>
         </tr>
       </tbody>
     </table>
- 
-</body>
+  </body>
 </html>
